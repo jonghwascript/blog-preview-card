@@ -13,7 +13,7 @@
   box-sizing: border-box;
 }
 
-h3,
+h1,
 p {
   margin: 0;
   padding: 0;
@@ -22,7 +22,7 @@ p {
 body {
   font-family: "Figtree", sans-serif;
   font-optical-sizing: auto;
-  font-size: 1rem;
+  font-size: clamp(0.875rem, 2.5vw, 1rem);
   font-weight: 500;
   background-color: var(--color-yellow);
 }
@@ -39,7 +39,7 @@ main {
 
 .blog-card-wrapper {
   width: 100%;
-  max-width: 384px;
+  max-width: 24rem;
 
   --card-theme: mobile;
 
@@ -51,7 +51,7 @@ main {
 }
 
 .blog-card {
-  width: 327px;
+  width: 20.4375rem;
   border-radius: 20px;
   padding: 24px;
   background-color: var(--color-white);
@@ -88,7 +88,7 @@ main {
   background-color: var(--color-yellow);
   padding: 4px 12px;
   border-radius: 4px;
-  margin-bottom: 12px;
+  margin-block-end: 12px;
   line-height: 1.5;
 
   @container style(--card-theme: pc) {
@@ -109,7 +109,7 @@ main {
 }
 
 .blog-card__title {
-  margin-top: 12px;
+  margin-block-start: 12px;
   font-weight: 800;
   font-size: 20px;
   line-height: 1.5;
@@ -137,7 +137,7 @@ main {
 }
 
 .blog-card__excerpt {
-  margin-top: 12px;
+  margin-block-start: 12px;
   font-weight: 500;
   font-size: 14px;
   color: var(--color-gray);
