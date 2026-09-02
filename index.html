@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Blog preview card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <div class="blog-card-wrapper">
+      <article class="blog-card">
+
+        <!-- 1. 시각 요소 -->
+        <img class="blog-card__image" src="./images/illustration-article.svg" alt="블로그 썸네일">
+
+        <!-- 2. 본문 영역 -->
+        <div class="blog-card__content">
+          <span class="blog-card__category">Learning</span>
+          <time class="blog-card__published" datetime="2026-09-01">Published 21 Dec 2023</time>
+          <a href="#" class="blog-card__link">
+            <h3 class="blog-card__title">HTML & CSS foundations</h3>
+          </a>
+          <p class="blog-card__excerpt">
+            These languages are the backbone of every website, defining structure, content, and presentation.
+          </p>
+        </div>
+
+        <!-- 3. 작성자 영역 -->
+        <footer class="blog-card__author">
+          <img class="blog-card__avatar" src="./images/image-avatar.webp" alt="프로필">
+          <span class="blog-card__nickname">Greg Hooper</span>
+        </footer>
+
+      </article>
+    </div>
+  </main>
+</body>
+
+</html>
