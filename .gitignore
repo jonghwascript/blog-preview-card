@@ -16,9 +16,8 @@
 .prettierignore
 
 design/
-fonts/
 AGENTS.md
 CLAUDE.md
-question.md
 style-guide.md
 README-template.md
+doc/
