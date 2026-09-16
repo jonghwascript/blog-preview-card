@@ -186,4 +186,4 @@ I compared `object-fit: contain` and `cover`. `contain` showed the full illustra
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@jonghwascript](https://www.frontendmentor.io/profile/jonghwascript)
